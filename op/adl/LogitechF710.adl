@@ -1,0 +1,1141 @@
+
+file {
+	name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/LogitechF710.adl"
+	version=030107
+}
+display {
+	object {
+		x=351
+		y=97
+		width=685
+		height=545
+	}
+	clr=14
+	bclr=4
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+composite {
+	object {
+		x=-4
+		y=-4
+		width=935
+		height=32
+	}
+	"composite name"=""
+	children {
+		rectangle {
+			object {
+				x=0
+				y=0
+				width=927
+				height=25
+			}
+			"basic attribute" {
+				clr=29
+			}
+		}
+		rectangle {
+			object {
+				x=-4
+				y=-4
+				width=935
+				height=32
+			}
+			"basic attribute" {
+				clr=14
+				fill="outline"
+				width=3
+			}
+		}
+	}
+}
+text {
+	object {
+		x=5
+		y=3
+		width=240
+		height=20
+	}
+	"basic attribute" {
+		clr=0
+	}
+	textix="Logitech F710 Controller"
+}
+composite {
+	object {
+		x=10
+		y=40
+		width=665
+		height=495
+	}
+	"composite name"=""
+	children {
+		composite {
+			object {
+				x=118
+				y=370
+				width=210
+				height=165
+			}
+			"composite name"=""
+			children {
+				rectangle {
+					object {
+						x=118
+						y=385
+						width=210
+						height=150
+					}
+					"basic attribute" {
+						clr=11
+						fill="outline"
+						width=2
+					}
+				}
+				composite {
+					object {
+						x=138
+						y=370
+						width=170
+						height=24
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=138
+								y=370
+								width=170
+								height=24
+							}
+							"basic attribute" {
+								clr=4
+							}
+						}
+						text {
+							object {
+								x=143
+								y=370
+								width=160
+								height=24
+							}
+							"basic attribute" {
+								clr=14
+							}
+							textix="Left Joystick"
+							align="horiz. centered"
+						}
+					}
+				}
+				"related display" {
+					object {
+						x=196
+						y=410
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=LSUpSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Up"
+				}
+				"related display" {
+					object {
+						x=196
+						y=490
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=LSDownSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Down"
+				}
+				"related display" {
+					object {
+						x=131
+						y=450
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=LSLeftSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Left"
+				}
+				"related display" {
+					object {
+						x=261
+						y=450
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=LSRightSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Right"
+				}
+				"related display" {
+					object {
+						x=196
+						y=450
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=L3Seq"
+					}
+					clr=14
+					bclr=51
+					label="-Click"
+				}
+			}
+		}
+		composite {
+			object {
+				x=358
+				y=370
+				width=210
+				height=165
+			}
+			"composite name"=""
+			children {
+				"related display" {
+					object {
+						x=436
+						y=410
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=RSUpSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Up"
+				}
+				"related display" {
+					object {
+						x=436
+						y=490
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=RSDownSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Down"
+				}
+				"related display" {
+					object {
+						x=371
+						y=450
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=RSLeftSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Left"
+				}
+				"related display" {
+					object {
+						x=501
+						y=450
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=RSRightSeq"
+					}
+					clr=14
+					bclr=51
+					label="-Right"
+				}
+				"related display" {
+					object {
+						x=436
+						y=450
+						width=55
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=R3Seq"
+					}
+					clr=14
+					bclr=51
+					label="-Click"
+				}
+				rectangle {
+					object {
+						x=358
+						y=385
+						width=210
+						height=150
+					}
+					"basic attribute" {
+						clr=11
+						fill="outline"
+						width=2
+					}
+				}
+				composite {
+					object {
+						x=373
+						y=370
+						width=180
+						height=24
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=373
+								y=370
+								width=180
+								height=24
+							}
+							"basic attribute" {
+								clr=4
+							}
+						}
+						text {
+							object {
+								x=378
+								y=370
+								width=170
+								height=24
+							}
+							"basic attribute" {
+								clr=14
+							}
+							textix="Right Joystick"
+							align="horiz. centered"
+						}
+					}
+				}
+			}
+		}
+		composite {
+			object {
+				x=495
+				y=175
+				width=180
+				height=165
+			}
+			"composite name"=""
+			children {
+				rectangle {
+					object {
+						x=495
+						y=190
+						width=180
+						height=150
+					}
+					"basic attribute" {
+						clr=11
+						fill="outline"
+						width=2
+					}
+				}
+				composite {
+					object {
+						x=510
+						y=215
+						width=150
+						height=110
+					}
+					"composite name"=""
+					children {
+						"related display" {
+							object {
+								x=555
+								y=215
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=YSeq"
+							}
+							clr=14
+							bclr=51
+							label="-Y"
+						}
+						"related display" {
+							object {
+								x=510
+								y=255
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=XSeq"
+							}
+							clr=14
+							bclr=51
+							label="-X"
+						}
+						"related display" {
+							object {
+								x=555
+								y=295
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=ASeq"
+							}
+							clr=14
+							bclr=51
+							label="-A"
+						}
+						"related display" {
+							object {
+								x=600
+								y=255
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=BSeq"
+							}
+							clr=14
+							bclr=51
+							label="-B"
+						}
+					}
+				}
+				composite {
+					object {
+						x=535
+						y=175
+						width=100
+						height=24
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=535
+								y=175
+								width=100
+								height=24
+							}
+							"basic attribute" {
+								clr=4
+							}
+						}
+						text {
+							object {
+								x=540
+								y=175
+								width=90
+								height=24
+							}
+							"basic attribute" {
+								clr=14
+							}
+							textix="Buttons"
+							align="horiz. centered"
+						}
+					}
+				}
+			}
+		}
+		composite {
+			object {
+				x=10
+				y=175
+				width=180
+				height=165
+			}
+			"composite name"=""
+			children {
+				rectangle {
+					object {
+						x=10
+						y=190
+						width=180
+						height=150
+					}
+					"basic attribute" {
+						clr=11
+						fill="outline"
+						width=2
+					}
+				}
+				composite {
+					object {
+						x=65
+						y=175
+						width=70
+						height=24
+					}
+					"composite name"=""
+					children {
+						rectangle {
+							object {
+								x=65
+								y=175
+								width=70
+								height=24
+							}
+							"basic attribute" {
+								clr=4
+							}
+						}
+						text {
+							object {
+								x=70
+								y=175
+								width=60
+								height=24
+							}
+							"basic attribute" {
+								clr=14
+							}
+							textix="D-Pad"
+						}
+					}
+				}
+				composite {
+					object {
+						x=25
+						y=215
+						width=150
+						height=110
+					}
+					"composite name"=""
+					children {
+						"related display" {
+							object {
+								x=70
+								y=215
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=UpSeq"
+							}
+							clr=14
+							bclr=51
+							label="-Up"
+						}
+						"related display" {
+							object {
+								x=25
+								y=255
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=LeftSeq"
+							}
+							clr=14
+							bclr=51
+							label="-Left"
+						}
+						"related display" {
+							object {
+								x=70
+								y=295
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=DownSeq"
+							}
+							clr=14
+							bclr=51
+							label="-Down"
+						}
+						"related display" {
+							object {
+								x=115
+								y=255
+								width=60
+								height=30
+							}
+							display[0] {
+								name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+								args="P=$(P),R=$(R),SEQ=RightSeq"
+							}
+							clr=14
+							bclr=51
+							label="-Right"
+						}
+					}
+				}
+			}
+		}
+		composite {
+			object {
+				x=221
+				y=178
+				width=244
+				height=172
+			}
+			"composite name"=""
+			children {
+				oval {
+					object {
+						x=347
+						y=244
+						width=61
+						height=51
+					}
+					"basic attribute" {
+						clr=14
+						fill="outline"
+						width=2
+					}
+				}
+				oval {
+					object {
+						x=391
+						y=181
+						width=74
+						height=169
+					}
+					"basic attribute" {
+						clr=14
+						fill="outline"
+						width=2
+					}
+				}
+				oval {
+					object {
+						x=278
+						y=244
+						width=61
+						height=51
+					}
+					"basic attribute" {
+						clr=14
+						fill="outline"
+						width=2
+					}
+				}
+				rectangle {
+					object {
+						x=262
+						y=181
+						width=163
+						height=87
+					}
+					"basic attribute" {
+						clr=14
+						fill="outline"
+						width=2
+					}
+				}
+				oval {
+					object {
+						x=221
+						y=181
+						width=74
+						height=169
+					}
+					"basic attribute" {
+						clr=14
+						fill="outline"
+						width=2
+					}
+				}
+				composite {
+					object {
+						x=223
+						y=183
+						width=240
+						height=165
+					}
+					"composite name"=""
+					children {
+						oval {
+							object {
+								x=223
+								y=183
+								width=70
+								height=165
+							}
+							"basic attribute" {
+								clr=3
+							}
+						}
+						oval {
+							object {
+								x=278
+								y=243
+								width=60
+								height=50
+							}
+							"basic attribute" {
+								clr=3
+							}
+						}
+						rectangle {
+							object {
+								x=263
+								y=183
+								width=160
+								height=83
+							}
+							"basic attribute" {
+								clr=3
+							}
+						}
+						oval {
+							object {
+								x=348
+								y=243
+								width=60
+								height=50
+							}
+							"basic attribute" {
+								clr=3
+							}
+						}
+						oval {
+							object {
+								x=393
+								y=183
+								width=70
+								height=165
+							}
+							"basic attribute" {
+								clr=3
+							}
+						}
+					}
+				}
+				oval {
+					object {
+						x=248
+						y=203
+						width=40
+						height=40
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				oval {
+					object {
+						x=293
+						y=253
+						width=30
+						height=30
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				oval {
+					object {
+						x=363
+						y=253
+						width=30
+						height=30
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				rectangle {
+					object {
+						x=303
+						y=208
+						width=20
+						height=10
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				rectangle {
+					object {
+						x=363
+						y=208
+						width=20
+						height=10
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				rectangle {
+					object {
+						x=313
+						y=228
+						width=20
+						height=10
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				rectangle {
+					object {
+						x=353
+						y=228
+						width=20
+						height=10
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				oval {
+					object {
+						x=414
+						y=199
+						width=16
+						height=16
+					}
+					"basic attribute" {
+						clr=32
+					}
+				}
+				oval {
+					object {
+						x=430
+						y=215
+						width=16
+						height=16
+					}
+					"basic attribute" {
+						clr=20
+					}
+				}
+				oval {
+					object {
+						x=414
+						y=231
+						width=16
+						height=16
+					}
+					"basic attribute" {
+						clr=16
+					}
+				}
+				oval {
+					object {
+						x=398
+						y=215
+						width=16
+						height=16
+					}
+					"basic attribute" {
+						clr=52
+					}
+				}
+				rectangle {
+					object {
+						x=258
+						y=178
+						width=30
+						height=6
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				rectangle {
+					object {
+						x=398
+						y=178
+						width=30
+						height=6
+					}
+					"basic attribute" {
+						clr=14
+					}
+				}
+				text {
+					object {
+						x=417
+						y=202
+						width=12
+						height=12
+					}
+					"basic attribute" {
+						clr=14
+					}
+					textix="Y"
+					align="horiz. centered"
+				}
+				text {
+					object {
+						x=401
+						y=219
+						width=12
+						height=12
+					}
+					"basic attribute" {
+						clr=14
+					}
+					textix="X"
+					align="horiz. centered"
+				}
+				text {
+					object {
+						x=417
+						y=234
+						width=12
+						height=12
+					}
+					"basic attribute" {
+						clr=14
+					}
+					textix="A"
+					align="horiz. centered"
+				}
+				text {
+					object {
+						x=433
+						y=218
+						width=12
+						height=12
+					}
+					"basic attribute" {
+						clr=14
+					}
+					textix="B"
+					align="horiz. centered"
+				}
+			}
+		}
+		composite {
+			object {
+				x=220
+				y=40
+				width=245
+				height=115
+			}
+			"composite name"=""
+			children {
+				rectangle {
+					object {
+						x=220
+						y=55
+						width=245
+						height=100
+					}
+					"basic attribute" {
+						clr=11
+						fill="outline"
+						width=2
+					}
+				}
+				composite {
+					object {
+						x=287
+						y=40
+						width=110
+						height=24
+					}
+					"composite name"=""
+					children {
+						composite {
+							object {
+								x=287
+								y=40
+								width=110
+								height=24
+							}
+							"composite name"=""
+							children {
+								rectangle {
+									object {
+										x=287
+										y=40
+										width=110
+										height=24
+									}
+									"basic attribute" {
+										clr=4
+									}
+								}
+								text {
+									object {
+										x=292
+										y=40
+										width=100
+										height=24
+									}
+									"basic attribute" {
+										clr=14
+									}
+									textix="Triggers"
+									align="horiz. centered"
+								}
+							}
+						}
+					}
+				}
+				"related display" {
+					object {
+						x=240
+						y=75
+						width=60
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=LTSeq"
+					}
+					clr=14
+					bclr=51
+					label="-LT"
+				}
+				"related display" {
+					object {
+						x=240
+						y=115
+						width=60
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=LBSeq"
+					}
+					clr=14
+					bclr=51
+					label="-LB"
+				}
+				"related display" {
+					object {
+						x=385
+						y=75
+						width=60
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=RTSeq"
+					}
+					clr=14
+					bclr=51
+					label="-RT"
+				}
+				"related display" {
+					object {
+						x=385
+						y=115
+						width=60
+						height=30
+					}
+					display[0] {
+						name="/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl"
+						args="P=$(P),R=$(R),SEQ=RBSeq"
+					}
+					clr=14
+					bclr=51
+					label="-RB"
+				}
+			}
+		}
+	}
+}

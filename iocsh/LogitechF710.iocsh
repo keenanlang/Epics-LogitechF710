@@ -1,0 +1,17 @@
+# ### LogitechF710.iocsh ###
+
+#- ###################################################
+#- PREFIX         - IOC Prefix
+#- INSTANCE       - Instance Prefix
+#- PORT           - Name for created asyn port
+#- MODE           - DirectX or XInput
+#- F710           - Location of this module
+#- TIMEOUT        - USB timeout value (milliseconds)
+#-                  Optional, default: 1000
+#- ###################################################
+
+usbCreateDriver("$(PORT)", "$(F710)/Db/LogitechF710-$(MODE).in")
+usbSetTimeout("$(PORT)", $(TIMEOUT=1000))
+usbConnectDevice("$(PORT)", 0, 0x046d, 0xc219)
+
+dbLoadRecords("$(F710)/Db/LogitechF710.db", "P=$(PREFIX),R=$(INSTANCE),PORT=$(PORT)")

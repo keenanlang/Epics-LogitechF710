@@ -1,0 +1,2793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>MainWindow</class>
+<widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+        <rect>
+            <x>351</x>
+            <y>97</y>
+            <width>685</width>
+            <height>545</height>
+        </rect>
+    </property>
+    <property name="styleSheet">
+        <string>
+
+QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
+
+</string>
+    </property>
+    <widget class="QWidget" name="centralWidget">
+        <widget class="caFrame" name="caFrame_0">
+            <property name="geometry">
+                <rect>
+                    <x>-4</x>
+                    <y>-4</y>
+                    <width>937</width>
+                    <height>34</height>
+                </rect>
+            </property>
+            <widget class="caGraphics" name="caRectangle_0">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>4</x>
+                        <y>4</y>
+                        <width>927</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>39</red>
+                        <green>84</green>
+                        <blue>141</blue>
+                    </color>
+                </property>
+                <property name="fillstyle">
+                    <enum>Filled</enum>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>39</red>
+                        <green>84</green>
+                        <blue>141</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <enum>Solid</enum>
+                </property>
+            </widget>
+            <widget class="caGraphics" name="caRectangle_1">
+                <property name="form">
+                    <enum>caGraphics::Rectangle</enum>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>935</width>
+                        <height>32</height>
+                    </rect>
+                </property>
+                <property name="lineSize">
+                    <number>3</number>
+                </property>
+                <property name="foreground">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="background">
+                    <color alpha="0">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="lineColor">
+                    <color alpha="255">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                    </color>
+                </property>
+                <property name="linestyle">
+                    <enum>Solid</enum>
+                </property>
+            </widget>
+        </widget>
+        <widget class="caLabel" name="caLabel_0">
+            <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Logitech F710 Controller</string>
+            </property>
+            <property name="fontScaleMode">
+                <enum>ESimpleLabel::WidthAndHeight</enum>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>3</y>
+                    <width>240</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignAbsolute|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+        </widget>
+        <widget class="caFrame" name="caFrame_1">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>40</y>
+                    <width>667</width>
+                    <height>497</height>
+                </rect>
+            </property>
+            <widget class="caFrame" name="caFrame_2">
+                <property name="geometry">
+                    <rect>
+                        <x>108</x>
+                        <y>330</y>
+                        <width>212</width>
+                        <height>167</height>
+                    </rect>
+                </property>
+                <widget class="caGraphics" name="caRectangle_2">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>0</x>
+                            <y>15</y>
+                            <width>210</width>
+                            <height>150</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caFrame" name="caFrame_3">
+                    <property name="geometry">
+                        <rect>
+                            <x>20</x>
+                            <y>0</y>
+                            <width>172</width>
+                            <height>26</height>
+                        </rect>
+                    </property>
+                    <widget class="caGraphics" name="caRectangle_3">
+                        <property name="form">
+                            <enum>caGraphics::Rectangle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>170</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caLabel" name="caLabel_1">
+                        <property name="frameShape">
+                            <enum>QFrame::NoFrame</enum>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="0">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="text">
+                            <string>Left Joystick</string>
+                        </property>
+                        <property name="fontScaleMode">
+                            <enum>ESimpleLabel::WidthAndHeight</enum>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>5</x>
+                                <y>0</y>
+                                <width>160</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
+                    <property name="geometry">
+                        <rect>
+                            <x>78</x>
+                            <y>40</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Up</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=LSUpSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
+                    <property name="geometry">
+                        <rect>
+                            <x>78</x>
+                            <y>120</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Down</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=LSDownSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_2">
+                    <property name="geometry">
+                        <rect>
+                            <x>13</x>
+                            <y>80</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Left</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=LSLeftSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_3">
+                    <property name="geometry">
+                        <rect>
+                            <x>143</x>
+                            <y>80</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Right</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=LSRightSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_4">
+                    <property name="geometry">
+                        <rect>
+                            <x>78</x>
+                            <y>80</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Click</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=L3Seq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+            </widget>
+            <widget class="caFrame" name="caFrame_4">
+                <property name="geometry">
+                    <rect>
+                        <x>348</x>
+                        <y>330</y>
+                        <width>212</width>
+                        <height>167</height>
+                    </rect>
+                </property>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
+                    <property name="geometry">
+                        <rect>
+                            <x>78</x>
+                            <y>40</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Up</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=RSUpSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_6">
+                    <property name="geometry">
+                        <rect>
+                            <x>78</x>
+                            <y>120</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Down</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=RSDownSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_7">
+                    <property name="geometry">
+                        <rect>
+                            <x>13</x>
+                            <y>80</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Left</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=RSLeftSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_8">
+                    <property name="geometry">
+                        <rect>
+                            <x>143</x>
+                            <y>80</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Right</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=RSRightSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_9">
+                    <property name="geometry">
+                        <rect>
+                            <x>78</x>
+                            <y>80</y>
+                            <width>55</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-Click</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=R3Seq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_4">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>0</x>
+                            <y>15</y>
+                            <width>210</width>
+                            <height>150</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caFrame" name="caFrame_5">
+                    <property name="geometry">
+                        <rect>
+                            <x>15</x>
+                            <y>0</y>
+                            <width>182</width>
+                            <height>26</height>
+                        </rect>
+                    </property>
+                    <widget class="caGraphics" name="caRectangle_5">
+                        <property name="form">
+                            <enum>caGraphics::Rectangle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>180</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caLabel" name="caLabel_2">
+                        <property name="frameShape">
+                            <enum>QFrame::NoFrame</enum>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="0">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="text">
+                            <string>Right Joystick</string>
+                        </property>
+                        <property name="fontScaleMode">
+                            <enum>ESimpleLabel::WidthAndHeight</enum>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>5</x>
+                                <y>0</y>
+                                <width>170</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="caFrame" name="caFrame_6">
+                <property name="geometry">
+                    <rect>
+                        <x>485</x>
+                        <y>135</y>
+                        <width>182</width>
+                        <height>167</height>
+                    </rect>
+                </property>
+                <widget class="caGraphics" name="caRectangle_6">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>0</x>
+                            <y>15</y>
+                            <width>180</width>
+                            <height>150</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caFrame" name="caFrame_7">
+                    <property name="geometry">
+                        <rect>
+                            <x>15</x>
+                            <y>40</y>
+                            <width>152</width>
+                            <height>112</height>
+                        </rect>
+                    </property>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_10">
+                        <property name="geometry">
+                            <rect>
+                                <x>45</x>
+                                <y>0</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-Y</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=YSeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_11">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>40</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-X</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=XSeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_12">
+                        <property name="geometry">
+                            <rect>
+                                <x>45</x>
+                                <y>80</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-A</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=ASeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_13">
+                        <property name="geometry">
+                            <rect>
+                                <x>90</x>
+                                <y>40</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-B</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=BSeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="caFrame" name="caFrame_8">
+                    <property name="geometry">
+                        <rect>
+                            <x>40</x>
+                            <y>0</y>
+                            <width>102</width>
+                            <height>26</height>
+                        </rect>
+                    </property>
+                    <widget class="caGraphics" name="caRectangle_7">
+                        <property name="form">
+                            <enum>caGraphics::Rectangle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>100</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caLabel" name="caLabel_3">
+                        <property name="frameShape">
+                            <enum>QFrame::NoFrame</enum>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="0">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="text">
+                            <string>Buttons</string>
+                        </property>
+                        <property name="fontScaleMode">
+                            <enum>ESimpleLabel::WidthAndHeight</enum>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>5</x>
+                                <y>0</y>
+                                <width>90</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="caFrame" name="caFrame_9">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>135</y>
+                        <width>182</width>
+                        <height>167</height>
+                    </rect>
+                </property>
+                <widget class="caGraphics" name="caRectangle_8">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>0</x>
+                            <y>15</y>
+                            <width>180</width>
+                            <height>150</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caFrame" name="caFrame_10">
+                    <property name="geometry">
+                        <rect>
+                            <x>55</x>
+                            <y>0</y>
+                            <width>72</width>
+                            <height>26</height>
+                        </rect>
+                    </property>
+                    <widget class="caGraphics" name="caRectangle_9">
+                        <property name="form">
+                            <enum>caGraphics::Rectangle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>70</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>187</red>
+                                <green>187</green>
+                                <blue>187</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caLabel" name="caLabel_4">
+                        <property name="frameShape">
+                            <enum>QFrame::NoFrame</enum>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="0">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="text">
+                            <string>D-Pad</string>
+                        </property>
+                        <property name="fontScaleMode">
+                            <enum>ESimpleLabel::WidthAndHeight</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>5</x>
+                                <y>0</y>
+                                <width>60</width>
+                                <height>24</height>
+                            </rect>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignAbsolute|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="caFrame" name="caFrame_11">
+                    <property name="geometry">
+                        <rect>
+                            <x>15</x>
+                            <y>40</y>
+                            <width>152</width>
+                            <height>112</height>
+                        </rect>
+                    </property>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_14">
+                        <property name="geometry">
+                            <rect>
+                                <x>45</x>
+                                <y>0</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-Up</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=UpSeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_15">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>40</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-Left</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=LeftSeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_16">
+                        <property name="geometry">
+                            <rect>
+                                <x>45</x>
+                                <y>80</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-Down</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=DownSeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                    <widget class="caRelatedDisplay" name="caRelatedDisplay_17">
+                        <property name="geometry">
+                            <rect>
+                                <x>90</x>
+                                <y>40</y>
+                                <width>60</width>
+                                <height>30</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>0</red>
+                                <green>0</green>
+                                <blue>0</blue>
+                            </color>
+                        </property>
+                        <property name="background">
+                            <color alpha="255">
+                                <red>115</red>
+                                <green>223</green>
+                                <blue>255</blue>
+                            </color>
+                        </property>
+                        <property name="label">
+                            <string>-Right</string>
+                        </property>
+                        <property name="stackingMode">
+                            <enum>Menu</enum>
+                        </property>
+                        <property name="labels">
+                            <string></string>
+                        </property>
+                        <property name="files">
+                            <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                        </property>
+                        <property name="args">
+                            <string>P=$(P),R=$(R),SEQ=RightSeq</string>
+                        </property>
+                        <property name="removeParent">
+                            <string>false</string>
+                        </property>
+                    </widget>
+                </widget>
+            </widget>
+            <widget class="caFrame" name="caFrame_12">
+                <property name="geometry">
+                    <rect>
+                        <x>211</x>
+                        <y>138</y>
+                        <width>246</width>
+                        <height>174</height>
+                    </rect>
+                </property>
+                <widget class="caGraphics" name="caGraphics_0">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>126</x>
+                            <y>66</y>
+                            <width>61</width>
+                            <height>51</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_1">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>170</x>
+                            <y>3</y>
+                            <width>74</width>
+                            <height>169</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_2">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>57</x>
+                            <y>66</y>
+                            <width>61</width>
+                            <height>51</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_10">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>41</x>
+                            <y>3</y>
+                            <width>163</width>
+                            <height>87</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_3">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>0</x>
+                            <y>3</y>
+                            <width>74</width>
+                            <height>169</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caFrame" name="caFrame_13">
+                    <property name="geometry">
+                        <rect>
+                            <x>2</x>
+                            <y>5</y>
+                            <width>242</width>
+                            <height>167</height>
+                        </rect>
+                    </property>
+                    <widget class="caGraphics" name="caGraphics_4">
+                        <property name="form">
+                            <enum>caGraphics::Circle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>70</width>
+                                <height>165</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caGraphics" name="caGraphics_5">
+                        <property name="form">
+                            <enum>caGraphics::Circle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>55</x>
+                                <y>60</y>
+                                <width>60</width>
+                                <height>50</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caGraphics" name="caRectangle_11">
+                        <property name="form">
+                            <enum>caGraphics::Rectangle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>40</x>
+                                <y>0</y>
+                                <width>160</width>
+                                <height>83</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caGraphics" name="caGraphics_6">
+                        <property name="form">
+                            <enum>caGraphics::Circle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>125</x>
+                                <y>60</y>
+                                <width>60</width>
+                                <height>50</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                    <widget class="caGraphics" name="caGraphics_7">
+                        <property name="form">
+                            <enum>caGraphics::Circle</enum>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>170</x>
+                                <y>0</y>
+                                <width>70</width>
+                                <height>165</height>
+                            </rect>
+                        </property>
+                        <property name="foreground">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="fillstyle">
+                            <enum>Filled</enum>
+                        </property>
+                        <property name="lineColor">
+                            <color alpha="255">
+                                <red>200</red>
+                                <green>200</green>
+                                <blue>200</blue>
+                            </color>
+                        </property>
+                        <property name="linestyle">
+                            <enum>Solid</enum>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_8">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>27</x>
+                            <y>25</y>
+                            <width>40</width>
+                            <height>40</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_9">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>72</x>
+                            <y>75</y>
+                            <width>30</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_10">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>142</x>
+                            <y>75</y>
+                            <width>30</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_12">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>82</x>
+                            <y>30</y>
+                            <width>20</width>
+                            <height>10</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_13">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>142</x>
+                            <y>30</y>
+                            <width>20</width>
+                            <height>10</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_14">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>92</x>
+                            <y>50</y>
+                            <width>20</width>
+                            <height>10</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_15">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>132</x>
+                            <y>50</y>
+                            <width>20</width>
+                            <height>10</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_11">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>193</x>
+                            <y>21</y>
+                            <width>16</width>
+                            <height>16</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>238</red>
+                            <green>182</green>
+                            <blue>43</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>238</red>
+                            <green>182</green>
+                            <blue>43</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_12">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>209</x>
+                            <y>37</y>
+                            <width>16</width>
+                            <height>16</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>253</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>253</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_13">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>193</x>
+                            <y>53</y>
+                            <width>16</width>
+                            <height>16</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>30</red>
+                            <green>187</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>30</red>
+                            <green>187</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caGraphics_14">
+                    <property name="form">
+                        <enum>caGraphics::Circle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>177</x>
+                            <y>37</y>
+                            <width>16</width>
+                            <height>16</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>78</red>
+                            <green>165</green>
+                            <blue>249</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>78</red>
+                            <green>165</green>
+                            <blue>249</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_16">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>37</x>
+                            <y>0</y>
+                            <width>30</width>
+                            <height>6</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caGraphics" name="caRectangle_17">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>177</x>
+                            <y>0</y>
+                            <width>30</width>
+                            <height>6</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="fillstyle">
+                        <enum>Filled</enum>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caLabel" name="caLabel_5">
+                    <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="text">
+                        <string>Y</string>
+                    </property>
+                    <property name="fontScaleMode">
+                        <enum>ESimpleLabel::WidthAndHeight</enum>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>196</x>
+                            <y>24</y>
+                            <width>12</width>
+                            <height>12</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="caLabel" name="caLabel_6">
+                    <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="text">
+                        <string>X</string>
+                    </property>
+                    <property name="fontScaleMode">
+                        <enum>ESimpleLabel::WidthAndHeight</enum>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>180</x>
+                            <y>41</y>
+                            <width>12</width>
+                            <height>12</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="caLabel" name="caLabel_7">
+                    <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="text">
+                        <string>A</string>
+                    </property>
+                    <property name="fontScaleMode">
+                        <enum>ESimpleLabel::WidthAndHeight</enum>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>196</x>
+                            <y>56</y>
+                            <width>12</width>
+                            <height>12</height>
+                        </rect>
+                    </property>
+                </widget>
+                <widget class="caLabel" name="caLabel_8">
+                    <property name="frameShape">
+                        <enum>QFrame::NoFrame</enum>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="text">
+                        <string>B</string>
+                    </property>
+                    <property name="fontScaleMode">
+                        <enum>ESimpleLabel::WidthAndHeight</enum>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>212</x>
+                            <y>40</y>
+                            <width>12</width>
+                            <height>12</height>
+                        </rect>
+                    </property>
+                </widget>
+            </widget>
+            <widget class="caFrame" name="caFrame_14">
+                <property name="geometry">
+                    <rect>
+                        <x>210</x>
+                        <y>0</y>
+                        <width>247</width>
+                        <height>117</height>
+                    </rect>
+                </property>
+                <widget class="caGraphics" name="caRectangle_18">
+                    <property name="form">
+                        <enum>caGraphics::Rectangle</enum>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>0</x>
+                            <y>15</y>
+                            <width>245</width>
+                            <height>100</height>
+                        </rect>
+                    </property>
+                    <property name="lineSize">
+                        <number>2</number>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="0">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="lineColor">
+                        <color alpha="255">
+                            <red>90</red>
+                            <green>90</green>
+                            <blue>90</blue>
+                        </color>
+                    </property>
+                    <property name="linestyle">
+                        <enum>Solid</enum>
+                    </property>
+                </widget>
+                <widget class="caFrame" name="caFrame_15">
+                    <property name="geometry">
+                        <rect>
+                            <x>67</x>
+                            <y>0</y>
+                            <width>112</width>
+                            <height>26</height>
+                        </rect>
+                    </property>
+                    <widget class="caFrame" name="caFrame_16">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>112</width>
+                                <height>26</height>
+                            </rect>
+                        </property>
+                        <widget class="caGraphics" name="caRectangle_19">
+                            <property name="form">
+                                <enum>caGraphics::Rectangle</enum>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>0</x>
+                                    <y>0</y>
+                                    <width>110</width>
+                                    <height>24</height>
+                                </rect>
+                            </property>
+                            <property name="foreground">
+                                <color alpha="255">
+                                    <red>187</red>
+                                    <green>187</green>
+                                    <blue>187</blue>
+                                </color>
+                            </property>
+                            <property name="fillstyle">
+                                <enum>Filled</enum>
+                            </property>
+                            <property name="lineColor">
+                                <color alpha="255">
+                                    <red>187</red>
+                                    <green>187</green>
+                                    <blue>187</blue>
+                                </color>
+                            </property>
+                            <property name="linestyle">
+                                <enum>Solid</enum>
+                            </property>
+                        </widget>
+                        <widget class="caLabel" name="caLabel_9">
+                            <property name="frameShape">
+                                <enum>QFrame::NoFrame</enum>
+                            </property>
+                            <property name="foreground">
+                                <color alpha="255">
+                                    <red>0</red>
+                                    <green>0</green>
+                                    <blue>0</blue>
+                                </color>
+                            </property>
+                            <property name="background">
+                                <color alpha="0">
+                                    <red>0</red>
+                                    <green>0</green>
+                                    <blue>0</blue>
+                                </color>
+                            </property>
+                            <property name="text">
+                                <string>Triggers</string>
+                            </property>
+                            <property name="fontScaleMode">
+                                <enum>ESimpleLabel::WidthAndHeight</enum>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>5</x>
+                                    <y>0</y>
+                                    <width>100</width>
+                                    <height>24</height>
+                                </rect>
+                            </property>
+                        </widget>
+                    </widget>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_18">
+                    <property name="geometry">
+                        <rect>
+                            <x>20</x>
+                            <y>35</y>
+                            <width>60</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-LT</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=LTSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_19">
+                    <property name="geometry">
+                        <rect>
+                            <x>20</x>
+                            <y>75</y>
+                            <width>60</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-LB</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=LBSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_20">
+                    <property name="geometry">
+                        <rect>
+                            <x>165</x>
+                            <y>35</y>
+                            <width>60</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-RT</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=RTSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+                <widget class="caRelatedDisplay" name="caRelatedDisplay_21">
+                    <property name="geometry">
+                        <rect>
+                            <x>165</x>
+                            <y>75</y>
+                            <width>60</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="foreground">
+                        <color alpha="255">
+                            <red>0</red>
+                            <green>0</green>
+                            <blue>0</blue>
+                        </color>
+                    </property>
+                    <property name="background">
+                        <color alpha="255">
+                            <red>115</red>
+                            <green>223</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="label">
+                        <string>-RB</string>
+                    </property>
+                    <property name="stackingMode">
+                        <enum>Menu</enum>
+                    </property>
+                    <property name="labels">
+                        <string></string>
+                    </property>
+                    <property name="files">
+                        <string>/net/s29dserv/xorApps/epics/synApps_5_8/ioc/29idSneezySoft/29idSneezySoftApp/op/adl/UserSeq.adl</string>
+                    </property>
+                    <property name="args">
+                        <string>P=$(P),R=$(R),SEQ=RBSeq</string>
+                    </property>
+                    <property name="removeParent">
+                        <string>false</string>
+                    </property>
+                </widget>
+            </widget>
+        </widget>
+        <zorder>caRectangle_0</zorder>
+        <zorder>caRectangle_1</zorder>
+        <zorder>caFrame_0</zorder>
+        <zorder>caLabel_0</zorder>
+        <zorder>caRectangle_2</zorder>
+        <zorder>caRectangle_3</zorder>
+        <zorder>caLabel_1</zorder>
+        <zorder>caFrame_3</zorder>
+        <zorder>caFrame_2</zorder>
+        <zorder>caRectangle_4</zorder>
+        <zorder>caRectangle_5</zorder>
+        <zorder>caLabel_2</zorder>
+        <zorder>caFrame_5</zorder>
+        <zorder>caFrame_4</zorder>
+        <zorder>caRectangle_6</zorder>
+        <zorder>caFrame_7</zorder>
+        <zorder>caRectangle_7</zorder>
+        <zorder>caLabel_3</zorder>
+        <zorder>caFrame_8</zorder>
+        <zorder>caFrame_6</zorder>
+        <zorder>caRectangle_8</zorder>
+        <zorder>caRectangle_9</zorder>
+        <zorder>caLabel_4</zorder>
+        <zorder>caFrame_10</zorder>
+        <zorder>caFrame_11</zorder>
+        <zorder>caFrame_9</zorder>
+        <zorder>caGraphics_0</zorder>
+        <zorder>caGraphics_1</zorder>
+        <zorder>caGraphics_2</zorder>
+        <zorder>caRectangle_10</zorder>
+        <zorder>caGraphics_3</zorder>
+        <zorder>caGraphics_4</zorder>
+        <zorder>caGraphics_5</zorder>
+        <zorder>caRectangle_11</zorder>
+        <zorder>caGraphics_6</zorder>
+        <zorder>caGraphics_7</zorder>
+        <zorder>caFrame_13</zorder>
+        <zorder>caGraphics_8</zorder>
+        <zorder>caGraphics_9</zorder>
+        <zorder>caGraphics_10</zorder>
+        <zorder>caRectangle_12</zorder>
+        <zorder>caRectangle_13</zorder>
+        <zorder>caRectangle_14</zorder>
+        <zorder>caRectangle_15</zorder>
+        <zorder>caGraphics_11</zorder>
+        <zorder>caGraphics_12</zorder>
+        <zorder>caGraphics_13</zorder>
+        <zorder>caGraphics_14</zorder>
+        <zorder>caRectangle_16</zorder>
+        <zorder>caRectangle_17</zorder>
+        <zorder>caLabel_5</zorder>
+        <zorder>caLabel_6</zorder>
+        <zorder>caLabel_7</zorder>
+        <zorder>caLabel_8</zorder>
+        <zorder>caFrame_12</zorder>
+        <zorder>caRectangle_18</zorder>
+        <zorder>caRectangle_19</zorder>
+        <zorder>caLabel_9</zorder>
+        <zorder>caFrame_16</zorder>
+        <zorder>caFrame_15</zorder>
+        <zorder>caFrame_14</zorder>
+        <zorder>caFrame_1</zorder>
+        <zorder>caRelatedDisplay_0</zorder>
+        <zorder>caRelatedDisplay_1</zorder>
+        <zorder>caRelatedDisplay_2</zorder>
+        <zorder>caRelatedDisplay_3</zorder>
+        <zorder>caRelatedDisplay_4</zorder>
+        <zorder>caRelatedDisplay_5</zorder>
+        <zorder>caRelatedDisplay_6</zorder>
+        <zorder>caRelatedDisplay_7</zorder>
+        <zorder>caRelatedDisplay_8</zorder>
+        <zorder>caRelatedDisplay_9</zorder>
+        <zorder>caRelatedDisplay_10</zorder>
+        <zorder>caRelatedDisplay_11</zorder>
+        <zorder>caRelatedDisplay_12</zorder>
+        <zorder>caRelatedDisplay_13</zorder>
+        <zorder>caRelatedDisplay_14</zorder>
+        <zorder>caRelatedDisplay_15</zorder>
+        <zorder>caRelatedDisplay_16</zorder>
+        <zorder>caRelatedDisplay_17</zorder>
+        <zorder>caRelatedDisplay_18</zorder>
+        <zorder>caRelatedDisplay_19</zorder>
+        <zorder>caRelatedDisplay_20</zorder>
+        <zorder>caRelatedDisplay_21</zorder>
+    </widget>
+</widget>
+</ui>
