@@ -24,3 +24,13 @@ file UserSeq.req P=$(P),R=$(R),SEQ=RTSeq
 file UserSeq.req P=$(P),R=$(R),SEQ=RBSeq
 file UserSeq.req P=$(P),R=$(R),SEQ=L3Seq
 file UserSeq.req P=$(P),R=$(R),SEQ=R3Seq
+
+file UserSeq.req P=$(P),R=$(R),SEQ=LSUpHomeSeq
+file UserSeq.req P=$(P),R=$(R),SEQ=LSDownHomeSeq
+file UserSeq.req P=$(P),R=$(R),SEQ=LSLeftHomeSeq
+file UserSeq.req P=$(P),R=$(R),SEQ=LSRightHomeSeq
+
+file UserSeq.req P=$(P),R=$(R),SEQ=RSUpHomeSeq
+file UserSeq.req P=$(P),R=$(R),SEQ=RSDownHomeSeq
+file UserSeq.req P=$(P),R=$(R),SEQ=RSLeftHomeSeq
+file UserSeq.req P=$(P),R=$(R),SEQ=RSRightHomeSeq
