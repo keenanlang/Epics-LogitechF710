@@ -15,7 +15,7 @@
     <color name="MEDM_COLOR_14" red="0" green="0" blue="0" />
   </foreground_color>
   <grid_space>5</grid_space>
-  <height>545</height>
+  <height>600</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
@@ -471,10 +471,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>LSUpSeq</SEQ>
+              <HOME_SEQ>LSUpHomeSeq</HOME_SEQ>
+              <ButtonName>LeftJoystick Up</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
@@ -527,10 +529,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>LSDownSeq</SEQ>
+              <HOME_SEQ>LSDownHomeSeq</HOME_SEQ>
+              <ButtonName>LeftJoystick Down</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
@@ -583,10 +587,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>LSLeftSeq</SEQ>
+              <HOME_SEQ>LSLeftHomeSeq</HOME_SEQ>
+              <ButtonName>LeftJoystick Left</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
@@ -639,10 +645,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>LSRightSeq</SEQ>
+              <HOME_SEQ>LSRightHomeSeq</HOME_SEQ>
+              <ButtonName>LeftJoystick Right</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
@@ -989,10 +997,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>RSUpSeq</SEQ>
+              <HOME_SEQ>RSUpHomeSeq</HOME_SEQ>
+              <ButtonName>RightJoystick Up</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
@@ -1045,10 +1055,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>RSDownSeq</SEQ>
+              <HOME_SEQ>RSDownHomeSeq</HOME_SEQ>
+              <ButtonName>RightJoystick Down</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
@@ -1101,10 +1113,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>RSLeftSeq</SEQ>
+              <HOME_SEQ>RSLeftHomeSeq</HOME_SEQ>
+              <ButtonName>RightJoystick Left</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
@@ -1157,10 +1171,12 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
         <actions hook="false" hook_all="false">
           <action type="OPEN_DISPLAY">
-            <path>UserSeq.opi</path>
+            <path>UserSeqHome.opi</path>
             <macros>
               <include_parent_macros>true</include_parent_macros>
               <SEQ>RSRightSeq</SEQ>
+              <HOME_SEQ>RSRightHomeSeq</HOME_SEQ>
+              <ButtonName>RightJoystick Right</ButtonName>
             </macros>
             <mode>1</mode>
             <description></description>
